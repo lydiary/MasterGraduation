@@ -1,0 +1,8 @@
+INTSTYLE=impact
+INFILE=D:\Workstation\Workspace\FPGA\Changed\12_cvbs_display\par_xilinx\impact.xsl
+OUTFILE=D:\Workstation\Workspace\FPGA\Changed\12_cvbs_display\par_xilinx\impact.xsl
+FAMILY=Single
+PART=Single
+WORKINGDIR=D:\Workstation\Workspace\FPGA\Changed\12_cvbs_display\par_xilinx
+LICENSE=iMPACT
+USER_INFO=iMPACT

@@ -1,0 +1,1 @@
+vhdtdtfi -lang verilog -prj top -o C:/Users/Taylor/Desktop/12_cvbs_display/par_xilinx/ethernet_test.tfi -lib work C:/Users/Taylor/Desktop/12_cvbs_display/src/ethernet//ethernet_test.v -module ethernet_test -template C:/Xilinx/14.7/ISE_DS/ISE//data/tfi.tft -deleteonerror 

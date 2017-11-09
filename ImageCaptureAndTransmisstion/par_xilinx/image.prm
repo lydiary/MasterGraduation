@@ -1,0 +1,17 @@
+PROMGEN: Xilinx Prom Generator P.20131013
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+
+promgen -w -p mcs -c FF -o "D:\Workstation\Workspace\FPGA\Changed\12_cvbs_display - bt656\par_xilinx//image" -s 16384 -u 0000 "D:/Workstation/Workspace/FPGA/Changed/12_cvbs_display - bt656/par_xilinx/top.bit" -spi 
+
+PROM D:\Workstation\Workspace\FPGA\Changed\12_cvbs_display - bt656\par_xilinx\image.prm map: Thu Nov 09 19:03:46 2017
+
+Calculating PROM checksum with fill value ff
+
+Format        Mcs86 (32-bit)
+Size          16384K
+PROM start    0000:0000
+PROM end      00ff:ffff
+PROM checksum e8e5adff
+
+        Addr1        Addr2                     Date File(s)
+    0000:0000    0016:ae03     Nov 07 19:12:04 2017 D:/Workstation/Workspace/FPGA/Changed/12_cvbs_display - bt656/par_xilinx/top.bit

@@ -1,0 +1,235 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!--This is an ISE project configuration file.-->
+<!--It holds project specific layout data for the projectmgr plugin.-->
+<!--Copyright (c) 1995-2009 Xilinx, Inc.  All rights reserved.-->
+<Project version="2" owner="projectmgr" name="top" >
+   <!--This is an ISE project configuration file.-->
+   <ItemView engineview="SynthesisOnly" guiview="Source" compilemode="AutoCompile" >
+      <ClosedNodes>
+         <ClosedNodesVersion>2</ClosedNodesVersion>
+         <ClosedNode>/ethernet_test C:|Users|Taylor|Desktop|12_cvbs_display|src|ethernet|ethernet_test.v/g_udp_inst - g_udp</ClosedNode>
+         <ClosedNode>/ethernet_test C:|Users|Taylor|Desktop|12_cvbs_display|src|ethernet|ethernet_test.v/m_udp_inst - m_udp</ClosedNode>
+         <ClosedNode>/ethernet_test C:|Users|Taylor|Desktop|12_cvbs_display|src|ethernet|ethernet_test.v/phy_reg_config_inst - phy_reg_config</ClosedNode>
+         <ClosedNode>/ethernet_test D:|Workstation|Workspace|FPGA|Changed|12_cvbs_display|src|ethernet|ethernet_test.v/u1 - udp</ClosedNode>
+         <ClosedNode>/lite_fifo C:|Users|meisq|Desktop|AX845_new|cvbs_display|src|common_rtl|lite_fifo.v</ClosedNode>
+         <ClosedNode>/mcb_ui_top C:|Users|meisq|Desktop|AX845_new|cvbs_display|src|xilinx|ddr|mcb_controller|mcb_ui_top.v</ClosedNode>
+         <ClosedNode>/top C:|Users|Taylor|Desktop|12_cvbs_display|src|top.v/ethernet_test_m0 - ethernet_test/g_udp_inst - g_udp</ClosedNode>
+         <ClosedNode>/top C:|Users|Taylor|Desktop|12_cvbs_display|src|top.v/ethernet_test_m0 - ethernet_test/m_udp_inst - m_udp</ClosedNode>
+         <ClosedNode>/top C:|Users|Taylor|Desktop|12_cvbs_display|src|top.v/ethernet_test_m0 - ethernet_test/phy_reg_config_inst - phy_reg_config</ClosedNode>
+         <ClosedNode>/top C:|Users|Taylor|Desktop|12_cvbs_display|src|top.v/instance_name - ethernet_test/g_udp_inst - g_udp</ClosedNode>
+         <ClosedNode>/top C:|Users|Taylor|Desktop|12_cvbs_display|src|top.v/instance_name - ethernet_test/m_udp_inst - m_udp</ClosedNode>
+         <ClosedNode>/top C:|Users|Taylor|Desktop|12_cvbs_display|src|top.v/instance_name - ethernet_test/phy_reg_config_inst - phy_reg_config</ClosedNode>
+         <ClosedNode>/top C:|Users|Taylor|Desktop|12_cvbs_display|src|top.v/mem_ctrl_m0 - mem_ctrl</ClosedNode>
+         <ClosedNode>/top C:|Users|Taylor|Desktop|12_cvbs_display|src|top.v/udp_inst - udp</ClosedNode>
+         <ClosedNode>/top C:|Users|Taylor|Desktop|12_cvbs_display|src|top.v/vga_out_io_m0 - vga_out_io</ClosedNode>
+         <ClosedNode>/top C:|Users|Taylor|Desktop|12_cvbs_display|src|top.v/video_pro_m0 - video_pro</ClosedNode>
+         <ClosedNode>/top C:|Users|Taylor|Desktop|12_cvbs_display|src|top.v/video_pro_m0 - video_pro/vin_pro_m0 - vin_pro</ClosedNode>
+         <ClosedNode>/top C:|Users|Taylor|Desktop|12_cvbs_display|src|top.v/video_pro_m0 - video_pro/vin_pro_m0 - vin_pro/buffer_f - lite_fifo</ClosedNode>
+         <ClosedNode>/top C:|Users|Taylor|Desktop|12_cvbs_display|src|top.v/video_pro_m0 - video_pro/vin_pro_m0 - vin_pro/vin_frame_buffer_ctrl_m0 - vin_frame_buffer_ctrl</ClosedNode>
+         <ClosedNode>/top C:|Users|Taylor|Desktop|12_cvbs_display|src|top.v/video_pro_m0 - video_pro/vout_pro_m0 - vout_pro</ClosedNode>
+         <ClosedNode>/top C:|Users|Taylor|Desktop|12_cvbs_display|src|top.v/vout_display_pro_m0 - vout_display_pro</ClosedNode>
+         <ClosedNode>/top C:|Users|meisq|Desktop|AX845_new|cvbs_display|src|top.v</ClosedNode>
+         <ClosedNode>/top C:|Users|meisq|Desktop|AX845_new|cvbs_display|src|top.v/clock_out_m0 - clock_out</ClosedNode>
+         <ClosedNode>/top C:|Users|meisq|Desktop|AX845_new|cvbs_display|src|top.v/mem_ctrl_m0 - mem_ctrl/ddr3_m0 - ddr3_top</ClosedNode>
+         <ClosedNode>/top C:|Users|meisq|Desktop|AX845_new|cvbs_display|src|top.v/vga_out_io_m0 - vga_out_io</ClosedNode>
+         <ClosedNode>/top C:|Users|meisq|Desktop|AX845_new|cvbs_display|src|top.v/video_pro_m0 - video_pro/vin_pro_m0 - vin_pro/vin_frame_buffer_ctrl_m0 - vin_frame_buffer_ctrl/vin_frame_buffer_ctrl_fifo_m0 - lite_fifo</ClosedNode>
+         <ClosedNode>/top C:|Users|meisq|Desktop|AX845_new|cvbs_display|src|top.v/video_pro_m0 - video_pro/vout_pro_m0 - vout_pro/scaler_m0 - scaler/line_buf_scaler_m0 - line_buf_scaler</ClosedNode>
+         <ClosedNode>/top C:|Users|meisq|Desktop|AX845_new|cvbs_display|src|top.v/video_pro_m0 - video_pro/vout_pro_m0 - vout_pro/scaler_m0 - scaler/line_buf_scaler_m1 - line_buf_scaler</ClosedNode>
+         <ClosedNode>/top C:|Users|meisq|Desktop|AX845_new|cvbs_display|src|top.v/video_pro_m0 - video_pro/vout_pro_m0 - vout_pro/vout_frame_buffer_ctrl_m0 - vout_frame_buffer_ctrl/vout_frame_buffer_ctrl_fifo_256_16_m1 - lite_fifo</ClosedNode>
+         <ClosedNode>/top D:|Workstation|Workspace|FPGA|Changed|12_cvbs_display - bt656|src|top.v/video_pro_m0 - video_pro</ClosedNode>
+         <ClosedNode>/top D:|Workstation|Workspace|FPGA|Changed|12_cvbs_display - bt656|src|top.v/vout_display_pro_m0 - vout_display_pro</ClosedNode>
+         <ClosedNode>/top D:|Workstation|Workspace|FPGA|Changed|12_cvbs_display|src|top.v/ethernet_test_m0 - ethernet_test/u1 - udp</ClosedNode>
+         <ClosedNode>/top D:|Workstation|Workspace|FPGA|Changed|12_cvbs_display|src|top.v/mem_ctrl_m0 - mem_ctrl</ClosedNode>
+         <ClosedNode>/top D:|Workstation|Workspace|FPGA|Changed|12_cvbs_display|src|top.v/vga_out_io_m0 - vga_out_io</ClosedNode>
+         <ClosedNode>/top D:|Workstation|Workspace|FPGA|Changed|12_cvbs_display|src|top.v/video_pro_m0 - video_pro</ClosedNode>
+         <ClosedNode>/top D:|Workstation|Workspace|FPGA|Changed|12_cvbs_display|src|top.v/video_pro_m0 - video_pro/vin_pro_m0 - vin_pro/buffer_f - lite_fifo</ClosedNode>
+         <ClosedNode>/top D:|Workstation|Workspace|FPGA|Changed|12_cvbs_display|src|top.v/video_pro_m0 - video_pro/vin_pro_m0 - vin_pro/vin_frame_buffer_ctrl_m0 - vin_frame_buffer_ctrl</ClosedNode>
+         <ClosedNode>/top D:|Workstation|Workspace|FPGA|Changed|12_cvbs_display|src|top.v/video_pro_m0 - video_pro/vout_pro_m0 - vout_pro</ClosedNode>
+         <ClosedNode>/top D:|Workstation|Workspace|FPGA|Changed|12_cvbs_display|src|top.v/vout_display_pro_m0 - vout_display_pro</ClosedNode>
+         <ClosedNode>/top E:|Project|AX845|CD|02_Project|12_cvbs_display|src|top.v/video_pro_m0 - video_pro</ClosedNode>
+         <ClosedNode>/top F:|Downloads|Xilinx FPGA|02_Project|12_cvbs_display|src|top.v/mem_ctrl_m0 - mem_ctrl</ClosedNode>
+         <ClosedNode>/top F:|Downloads|Xilinx FPGA|02_Project|12_cvbs_display|src|top.v/vga_out_io_m0 - vga_out_io</ClosedNode>
+         <ClosedNode>/top F:|Downloads|Xilinx FPGA|02_Project|12_cvbs_display|src|top.v/video_pro_m0 - video_pro/vout_pro_m0 - vout_pro/out_buff0 - lite_fifo</ClosedNode>
+         <ClosedNode>/top F:|Downloads|Xilinx FPGA|02_Project|12_cvbs_display|src|top.v/video_pro_m0 - video_pro/vout_pro_m0 - vout_pro/scaler_m0 - scaler</ClosedNode>
+         <ClosedNode>/top F:|Downloads|Xilinx FPGA|02_Project|12_cvbs_display|src|top.v/vout_display_pro_m0 - vout_display_pro</ClosedNode>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem>top (D:/Workstation/Workspace/FPGA/Changed/ImageCaptureAndTransmisstion/src/top.v)</SelectedItem>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >45</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff00000000000000010000000100000000000000000000000000000000020200000001000000010000006400000399000000020000000000000000000000000200000064ffffffff000000810000000300000002000003990000000100000003000000000000000100000003</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >true</UserChangedColumnWidths>
+      <CurrentItem>top (D:/Workstation/Workspace/FPGA/Changed/ImageCaptureAndTransmisstion/src/top.v)</CurrentItem>
+   </ItemView>
+   <ItemView engineview="SynthesisOnly" sourcetype="" guiview="Process" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+         <ClosedNode>Design Utilities/Compile HDL Simulation Libraries</ClosedNode>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem/>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000001000000000000000000000000000000000000000000000001ba000000010000000100000000000000000000000064ffffffff000000810000000000000001000001ba0000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem/>
+   </ItemView>
+   <ItemView guiview="File" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+      </ClosedNodes>
+      <SelectedItems/>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff0000000000000001000000000000000001000000000000000000000000000000000000038e000000040101000100000000000000000000000064ffffffff0000008100000000000000040000003d0000000100000000000000240000000100000000000000780000000100000000000002b50000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem>bt656_decode.v</CurrentItem>
+   </ItemView>
+   <ItemView guiview="Library" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+         <ClosedNode>work</ClosedNode>
+      </ClosedNodes>
+      <SelectedItems/>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff0000000000000001000000000000000001000000000000000000000000000000000000016d000000010001000100000000000000000000000064ffffffff0000008100000000000000010000016d0000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem>work</CurrentItem>
+   </ItemView>
+   <ItemView engineview="SynthesisOnly" sourcetype="DESUT_VERILOG" guiview="Process" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+         <ClosedNode>Configure Target Device</ClosedNode>
+         <ClosedNode>Design Utilities/Compile HDL Simulation Libraries</ClosedNode>
+         <ClosedNode>Implement Design/Map</ClosedNode>
+         <ClosedNode>Implement Design/Place &amp; Route</ClosedNode>
+         <ClosedNode>Implement Design/Translate</ClosedNode>
+         <ClosedNode>User Constraints</ClosedNode>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem>Configure Target Device</SelectedItem>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >9</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff00000000000000010000000100000000000000000000000000000000000000000000000207000000010000000100000000000000000000000064ffffffff000000810000000000000001000002070000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem>Configure Target Device</CurrentItem>
+   </ItemView>
+   <SourceProcessView>000000ff00000000000000020000015c000000e401000000050100000002</SourceProcessView>
+   <CurrentView>Implementation</CurrentView>
+   <ItemView engineview="SynthesisOnly" sourcetype="DESUT_XCO" guiview="Process" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem/>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff0000000000000001000000010000000000000000000000000000000000000000000000022f000000010000000100000000000000000000000064ffffffff0000008100000000000000010000022f0000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem/>
+   </ItemView>
+   <ItemView engineview="SynthesisOnly" sourcetype="DESUT_UCF" guiview="Process" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem>User Constraints</SelectedItem>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff00000000000000010000000100000000000000000000000000000000000000000000000226000000010000000100000000000000000000000064ffffffff000000810000000000000001000002260000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem>User Constraints</CurrentItem>
+   </ItemView>
+   <ItemView engineview="SynthesisOnly" sourcetype="DESUT_NGC" guiview="Process" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem/>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000001000000000000000000000000000000000000000000000001a0000000010000000100000000000000000000000064ffffffff000000810000000000000001000001a00000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem/>
+   </ItemView>
+   <ItemView engineview="SynthesisOnly" sourcetype="DESUT_CDC" guiview="Process" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem/>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff0000000000000001000000010000000000000000000000000000000000000000000000022f000000010000000100000000000000000000000064ffffffff0000008100000000000000010000022f0000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem/>
+   </ItemView>
+   <ItemView engineview="SynthesisOnly" sourcetype="DESUT_VHDL_ARCHITECTURE" guiview="Process" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+         <ClosedNode>Design Utilities</ClosedNode>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem/>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff0000000000000001000000010000000000000000000000000000000000000000000000022f000000010000000100000000000000000000000064ffffffff0000008100000000000000010000022f0000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem/>
+   </ItemView>
+   <ItemView engineview="BehavioralSim" guiview="Source" compilemode="AutoCompile" >
+      <ClosedNodes>
+         <ClosedNodesVersion>2</ClosedNodesVersion>
+         <ClosedNode>/top D:|Workstation|Workspace|FPGA|Changed|12_cvbs_display|src|top.v/clock_out_m0 - clock_out</ClosedNode>
+         <ClosedNode>/top D:|Workstation|Workspace|FPGA|Changed|12_cvbs_display|src|top.v/mem_ctrl_m0 - mem_ctrl</ClosedNode>
+         <ClosedNode>/top D:|Workstation|Workspace|FPGA|Changed|12_cvbs_display|src|top.v/udp_inst - udp</ClosedNode>
+         <ClosedNode>/top D:|Workstation|Workspace|FPGA|Changed|12_cvbs_display|src|top.v/vga_out_io_m0 - vga_out_io</ClosedNode>
+         <ClosedNode>/top D:|Workstation|Workspace|FPGA|Changed|12_cvbs_display|src|top.v/video_pro_m0 - video_pro</ClosedNode>
+         <ClosedNode>/top D:|Workstation|Workspace|FPGA|Changed|12_cvbs_display|src|top.v/vout_display_pro_m0 - vout_display_pro</ClosedNode>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem>top (D:/Workstation/Workspace/FPGA/Changed/12_cvbs_display/src/top.v)</SelectedItem>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >6</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff00000000000000010000000100000000000000000000000000000000020200000001000000010000006400000399000000020000000000000000000000000200000064ffffffff000000810000000300000002000003990000000100000003000000000000000100000003</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem>top (D:/Workstation/Workspace/FPGA/Changed/12_cvbs_display/src/top.v)</CurrentItem>
+   </ItemView>
+   <ItemView engineview="BehavioralSim" sourcetype="" guiview="Process" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+         <ClosedNode>Design Utilities</ClosedNode>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem/>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff00000000000000010000000100000000000000000000000000000000000000000000000226000000010000000100000000000000000000000064ffffffff000000810000000000000001000002260000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem/>
+   </ItemView>
+   <ItemView engineview="BehavioralSim" sourcetype="DESUT_VERILOG" guiview="Process" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem>ModelSim Simulator</SelectedItem>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff00000000000000010000000100000000000000000000000000000000000000000000000226000000010000000100000000000000000000000064ffffffff000000810000000000000001000002260000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem>ModelSim Simulator</CurrentItem>
+   </ItemView>
+</Project>

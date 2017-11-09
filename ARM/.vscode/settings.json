@@ -1,0 +1,7 @@
+{
+    "files.associations": {
+        "fpga.h": "c",
+        "ch7301.h": "c",
+        "sil9134.h": "c"
+    }
+}

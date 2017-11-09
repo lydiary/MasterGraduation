@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IMPORTANT: This is an internal file that has been generated
+     by the Xilinx ISE software.  Any direct editing or
+     changes made to this file may result in unpredictable
+     behavior or data corruption.  It is strongly advised that
+     users do not edit the contents of this file. -->
+<messages>
+<msg type="warning" file="Timing" num="3175" delta="old" ><arg fmt="%s" index="1">e_gtxc</arg> does not clock data <arg fmt="%s" index="2">to</arg> <arg fmt="%s" index="3">e_txd&lt;7&gt;</arg></msg>
+
+<msg type="warning" file="Timing" num="3225" delta="old" >Timing constraint <arg fmt="%s" index="1">COMP &quot;e_txd&lt;7&gt;&quot; OFFSET = OUT 1 ns BEFORE COMP &quot;e_gtxc&quot;;</arg> ignored during timing analysis</msg>
+
+<msg type="warning" file="Timing" num="3175" delta="old" ><arg fmt="%s" index="1">e_gtxc</arg> does not clock data <arg fmt="%s" index="2">to</arg> <arg fmt="%s" index="3">e_txd&lt;6&gt;</arg></msg>
+
+<msg type="warning" file="Timing" num="3225" delta="old" >Timing constraint <arg fmt="%s" index="1">COMP &quot;e_txd&lt;6&gt;&quot; OFFSET = OUT 1 ns BEFORE COMP &quot;e_gtxc&quot;;</arg> ignored during timing analysis</msg>
+
+<msg type="warning" file="Timing" num="3175" delta="old" ><arg fmt="%s" index="1">e_gtxc</arg> does not clock data <arg fmt="%s" index="2">to</arg> <arg fmt="%s" index="3">e_txd&lt;5&gt;</arg></msg>
+
+<msg type="warning" file="Timing" num="3225" delta="old" >Timing constraint <arg fmt="%s" index="1">COMP &quot;e_txd&lt;5&gt;&quot; OFFSET = OUT 1 ns BEFORE COMP &quot;e_gtxc&quot;;</arg> ignored during timing analysis</msg>
+
+<msg type="warning" file="Timing" num="3175" delta="old" ><arg fmt="%s" index="1">e_gtxc</arg> does not clock data <arg fmt="%s" index="2">to</arg> <arg fmt="%s" index="3">e_txd&lt;4&gt;</arg></msg>
+
+<msg type="warning" file="Timing" num="3225" delta="old" >Timing constraint <arg fmt="%s" index="1">COMP &quot;e_txd&lt;4&gt;&quot; OFFSET = OUT 1 ns BEFORE COMP &quot;e_gtxc&quot;;</arg> ignored during timing analysis</msg>
+
+<msg type="warning" file="Timing" num="3175" delta="old" ><arg fmt="%s" index="1">e_gtxc</arg> does not clock data <arg fmt="%s" index="2">to</arg> <arg fmt="%s" index="3">e_txd&lt;3&gt;</arg></msg>
+
+<msg type="warning" file="Timing" num="3225" delta="old" >Timing constraint <arg fmt="%s" index="1">COMP &quot;e_txd&lt;3&gt;&quot; OFFSET = OUT 1 ns BEFORE COMP &quot;e_gtxc&quot;;</arg> ignored during timing analysis</msg>
+
+<msg type="warning" file="Timing" num="3175" delta="old" ><arg fmt="%s" index="1">e_gtxc</arg> does not clock data <arg fmt="%s" index="2">to</arg> <arg fmt="%s" index="3">e_txd&lt;2&gt;</arg></msg>
+
+<msg type="warning" file="Timing" num="3225" delta="old" >Timing constraint <arg fmt="%s" index="1">COMP &quot;e_txd&lt;2&gt;&quot; OFFSET = OUT 1 ns BEFORE COMP &quot;e_gtxc&quot;;</arg> ignored during timing analysis</msg>
+
+<msg type="warning" file="Timing" num="3175" delta="old" ><arg fmt="%s" index="1">e_gtxc</arg> does not clock data <arg fmt="%s" index="2">to</arg> <arg fmt="%s" index="3">e_txd&lt;1&gt;</arg></msg>
+
+<msg type="warning" file="Timing" num="3225" delta="old" >Timing constraint <arg fmt="%s" index="1">COMP &quot;e_txd&lt;1&gt;&quot; OFFSET = OUT 1 ns BEFORE COMP &quot;e_gtxc&quot;;</arg> ignored during timing analysis</msg>
+
+<msg type="warning" file="Timing" num="3175" delta="old" ><arg fmt="%s" index="1">e_gtxc</arg> does not clock data <arg fmt="%s" index="2">to</arg> <arg fmt="%s" index="3">e_txd&lt;0&gt;</arg></msg>
+
+<msg type="warning" file="Timing" num="3225" delta="old" >Timing constraint <arg fmt="%s" index="1">COMP &quot;e_txd&lt;0&gt;&quot; OFFSET = OUT 1 ns BEFORE COMP &quot;e_gtxc&quot;;</arg> ignored during timing analysis</msg>
+
+<msg type="warning" file="Timing" num="3175" delta="old" ><arg fmt="%s" index="1">e_gtxc</arg> does not clock data <arg fmt="%s" index="2">to</arg> <arg fmt="%s" index="3">e_txen</arg></msg>
+
+<msg type="warning" file="Timing" num="3225" delta="old" >Timing constraint <arg fmt="%s" index="1">COMP &quot;e_txen&quot; OFFSET = OUT 1 ns BEFORE COMP &quot;e_gtxc&quot;;</arg> ignored during timing analysis</msg>
+
+<msg type="warning" file="Timing" num="3175" delta="old" ><arg fmt="%s" index="1">e_gtxc</arg> does not clock data <arg fmt="%s" index="2">to</arg> <arg fmt="%s" index="3">e_txer</arg></msg>
+
+<msg type="warning" file="Timing" num="3225" delta="old" >Timing constraint <arg fmt="%s" index="1">COMP &quot;e_txer&quot; OFFSET = OUT 1 ns BEFORE COMP &quot;e_gtxc&quot;;</arg> ignored during timing analysis</msg>
+
+<msg type="info" file="Timing" num="3386" delta="old" >Intersecting Constraints found and resolved.  For more information, see the TSI report.  Please consult the Xilinx Command Line Tools User Guide for information on generating a TSI report.</msg>
+
+<msg type="warning" file="Par" num="288" delta="old" >The signal <arg fmt="%s" index="1">sda_IBUF</arg> has no load.  PAR will not attempt to route this signal.
+</msg>
+
+<msg type="warning" file="Par" num="288" delta="old" >The signal <arg fmt="%s" index="1">scl_IBUF</arg> has no load.  PAR will not attempt to route this signal.
+</msg>
+
+<msg type="warning" file="Par" num="288" delta="old" >The signal <arg fmt="%s" index="1">e_txc_IBUF</arg> has no load.  PAR will not attempt to route this signal.
+</msg>
+
+<msg type="warning" file="Par" num="288" delta="old" >The signal <arg fmt="%s" index="1">e_rxd&lt;0&gt;_IBUF</arg> has no load.  PAR will not attempt to route this signal.
+</msg>
+
+<msg type="warning" file="Par" num="288" delta="old" >The signal <arg fmt="%s" index="1">e_rxd&lt;1&gt;_IBUF</arg> has no load.  PAR will not attempt to route this signal.
+</msg>
+
+<msg type="warning" file="Par" num="288" delta="old" >The signal <arg fmt="%s" index="1">e_rxd&lt;2&gt;_IBUF</arg> has no load.  PAR will not attempt to route this signal.
+</msg>
+
+<msg type="warning" file="Par" num="288" delta="old" >The signal <arg fmt="%s" index="1">e_rxd&lt;3&gt;_IBUF</arg> has no load.  PAR will not attempt to route this signal.
+</msg>
+
+<msg type="warning" file="Par" num="288" delta="old" >The signal <arg fmt="%s" index="1">e_rxd&lt;4&gt;_IBUF</arg> has no load.  PAR will not attempt to route this signal.
+</msg>
+
+<msg type="warning" file="Par" num="288" delta="old" >The signal <arg fmt="%s" index="1">e_rxd&lt;5&gt;_IBUF</arg> has no load.  PAR will not attempt to route this signal.
+</msg>
+
+<msg type="warning" file="Par" num="288" delta="old" >The signal <arg fmt="%s" index="1">e_rxd&lt;6&gt;_IBUF</arg> has no load.  PAR will not attempt to route this signal.
+</msg>
+
+<msg type="warning" file="Par" num="288" delta="old" >The signal <arg fmt="%s" index="1">e_rxd&lt;7&gt;_IBUF</arg> has no load.  PAR will not attempt to route this signal.
+</msg>
+
+<msg type="warning" file="Par" num="288" delta="old" >The signal <arg fmt="%s" index="1">e_rxer_IBUF</arg> has no load.  PAR will not attempt to route this signal.
+</msg>
+
+<msg type="warning" file="Par" num="288" delta="old" >The signal <arg fmt="%s" index="1">e_rxdv_IBUF</arg> has no load.  PAR will not attempt to route this signal.
+</msg>
+
+<msg type="warning" file="Route" num="466" delta="new" >Unusually high hold time violation detected among <arg fmt="%d" index="1">28</arg> connections. The top <arg fmt="%d" index="2">20</arg> such instances are printed below. The router will continue and try to fix it
+</msg>
+
+<msg type="warning" file="Par" num="468" delta="old" >Your design did not meet timing.  The following are some suggestions to assist you to meet timing in your design.
+
+Review the timing report using Timing Analyzer (In ISE select &quot;Post-Place &amp;
+Route Static Timing Report&quot;). Go to the failing constraint(s) and evaluate the failing paths for each constraint.
+
+Try the Design Goal and Strategies for Timing Performance(In ISE select Project -&gt; Design Goals &amp; Strategies) to ensure the best options are set in the tools for timing closure.
+
+</msg>
+
+<msg type="info" file="Timing" num="2761" delta="old" >N/A entries in the Constraints List may indicate that the constraint is not analyzed due to the following: No paths covered by this constraint; Other constraints intersect with this constraint; or This constraint was disabled by a Path Tracing Control. Please run the Timespec Interaction Report (TSI) via command line (trce tsi) or Timing Analyzer GUI.</msg>
+
+<msg type="warning" file="ParHelpers" num="361" delta="old" >There are <arg fmt="%d" index="1">13</arg> loadless signals in this design. This design will cause Bitgen to issue DRC warnings.
+
+</msg>
+
+<msg type="warning" file="Par" num="283" delta="old" >There are <arg fmt="%d" index="1">13</arg> loadless signals in this design. This design will cause Bitgen to issue DRC warnings.
+
+</msg>
+
+</messages>
+

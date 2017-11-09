@@ -1,0 +1,98 @@
+Release 14.7 - ngc2edif P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+Reading design top.ngc ...
+WARNING:NetListWriters:298 - No output is written to top.xncf, ignored.
+Processing design ...
+   Preping design's networks ...
+   Preping design's macros ...
+WARNING:NetListWriters:306 - Signal bus
+   video_pro_m0/vin_pro_m0/vin_frame_buffer_ctrl_m0/wr_burst_len<7 : 5> on block
+   top is not reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus
+   video_pro_m0/vout_pro_m0/vout_frame_buffer_ctrl_m0/rd_burst_len<7 : 5> on
+   block top is not reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus mem_ctrl_m0/mem_burst_m0/cmd_bl<5 : 3>
+   on block top is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus
+   mem_ctrl_m0/mem_write_arbi_m0/wr_burst_len<7 : 5> on block top is not
+   reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus
+   mem_ctrl_m0/mem_read_arbi_m0/rd_burst_len<7 : 5> on block top is not
+   reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus mem_ctrl_m0/mem_read_arbi_m0/_n0166<7 :
+   5> on block top is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus mem_ctrl_m0/mem_write_arbi_m0/_n0160<7 :
+   5> on block top is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus
+   mem_ctrl_m0/ddr3_m0/memc3_wrapper_inst/mcb_ui_top_inst/mcb_raw_wrapper_inst/g
+   en_term_calib.mcb_soft_calibration_top_inst/mcb_soft_calibration_inst/_n2103<
+   8 : 1> on block top is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus
+   mem_ctrl_m0/ddr3_m0/memc3_wrapper_inst/mcb_ui_top_inst/mcb_raw_wrapper_inst/g
+   en_term_calib.mcb_soft_calibration_top_inst/mcb_soft_calibration_inst/IODRPCT
+   RLR_MEMCELL_ADDR<7 : 0> on block top is not reconstructed, because there are
+   some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus
+   mem_ctrl_m0/ddr3_m0/memc3_wrapper_inst/mcb_ui_top_inst/mcb_raw_wrapper_inst/g
+   en_term_calib.mcb_soft_calibration_top_inst/mcb_soft_calibration_inst/iodrp_c
+   ontroller/memcell_addr_reg<7 : 0> on block top is not reconstructed, because
+   there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus
+   mem_ctrl_m0/ddr3_m0/memc3_wrapper_inst/mcb_ui_top_inst/mcb_raw_wrapper_inst/g
+   en_term_calib.mcb_soft_calibration_top_inst/mcb_soft_calibration_inst/iodrp_m
+   cb_controller/memcell_addr_reg<7 : 0> on block top is not reconstructed,
+   because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus
+   mem_ctrl_m0/mem_burst_m0/wr_burst_len_latch<7 : 2> on block top is not
+   reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus
+   mem_ctrl_m0/mem_burst_m0/rd_burst_len_latch<7 : 2> on block top is not
+   reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus sd_source_m0/Msub_n0295_lut<7 : 1> on
+   block top is not reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus sd_source_m0/Result<12 : 0> on block top
+   is not reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus
+   video_pro_m0/vin_pro_m0/vin_frame_buffer_ctrl_m0/remain_len<7 : 5> on block
+   top is not reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus
+   video_pro_m0/vin_pro_m0/vin_frame_buffer_ctrl_m0/remain_len[9]_GND_20_o_sub_5
+   6_OUT<9 : 6> on block top is not reconstructed, because there are some
+   missing bus signals.
+WARNING:NetListWriters:306 - Signal bus
+   video_pro_m0/vin_pro_m0/vin_frame_buffer_ctrl_m0/remain_len[9]_byte_per_line[
+   9]_mux_77_OUT<7 : 5> on block top is not reconstructed, because there are
+   some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus
+   video_pro_m0/vout_pro_m0/vout_frame_buffer_ctrl_m0/remain_len<7 : 5> on block
+   top is not reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus
+   video_pro_m0/vout_pro_m0/vout_frame_buffer_ctrl_m0/remain_len[9]_byte_per_lin
+   e[9]_mux_70_OUT<7 : 5> on block top is not reconstructed, because there are
+   some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus
+   video_pro_m0/vout_pro_m0/scaler_m0/Maccum_scale_map_line_lut<7 : 2> on block
+   top is not reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus
+   vout_display_pro_m0/ycbcr_to_rgb_m0/Madd_mult_y_for_g_18b[17]_GND_42_o_add_19
+   _OUT_lut<14 : 1> on block top is not reconstructed, because there are some
+   missing bus signals.
+  finished :Prep
+Writing EDIF netlist file top.edif ...
+ngc2edif: Total memory usage is 104184 kilobytes
+
+Release 14.7 - ngc2edif P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+Reading design cvbs_fifo.ngc ...
+WARNING:NetListWriters:298 - No output is written to cvbs_fifo.xncf, ignored.
+Processing design ...
+   Preping design's networks ...
+   Preping design's macros ...
+  finished :Prep
+Writing EDIF netlist file cvbs_fifo.edif ...
+ngc2edif: Total memory usage is 78320 kilobytes
+

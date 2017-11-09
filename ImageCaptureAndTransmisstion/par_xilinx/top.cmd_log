@@ -1,0 +1,18 @@
+xst -intstyle ise -ifn "D:/Workstation/Workspace/FPGA/Changed/12_cvbs_display - bt656/par_xilinx/top.xst" -ofn "D:/Workstation/Workspace/FPGA/Changed/12_cvbs_display - bt656/par_xilinx/top.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -sd ../src/xilinx -sd ../src/xilinx/fifo -nt timestamp -uc top.ucf -p xc6slx45-fgg484-2 top_cs.ngc top.ngd  
+map -intstyle ise -p xc6slx45-fgg484-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o top_map.ncd top.ngd top.pcf 
+par -w -intstyle ise -ol high -mt off top_map.ncd top.ncd top.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml top.twx top.ncd -o top.twr top.pcf -ucf top.ucf 
+bitgen -intstyle ise -f top.ut top.ncd 
+xst -intstyle ise -ifn "D:/Workstation/Workspace/FPGA/Changed/12_cvbs_display - bt656/par_xilinx/top.xst" -ofn "D:/Workstation/Workspace/FPGA/Changed/12_cvbs_display - bt656/par_xilinx/top.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -sd ../src/xilinx -sd ../src/xilinx/fifo -nt timestamp -uc top.ucf -p xc6slx45-fgg484-2 top_cs.ngc top.ngd  
+map -intstyle ise -p xc6slx45-fgg484-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o top_map.ncd top.ngd top.pcf 
+par -w -intstyle ise -ol high -mt off top_map.ncd top.ncd top.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml top.twx top.ncd -o top.twr top.pcf -ucf top.ucf 
+bitgen -intstyle ise -f top.ut top.ncd 
+xst -intstyle ise -ifn "D:/Workstation/Workspace/FPGA/Changed/12_cvbs_display - bt656/par_xilinx/top.xst" -ofn "D:/Workstation/Workspace/FPGA/Changed/12_cvbs_display - bt656/par_xilinx/top.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -sd ../src/xilinx -sd ../src/xilinx/fifo -nt timestamp -uc top.ucf -p xc6slx45-fgg484-2 top_cs.ngc top.ngd  
+map -intstyle ise -p xc6slx45-fgg484-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o top_map.ncd top.ngd top.pcf 
+par -w -intstyle ise -ol high -mt off top_map.ncd top.ncd top.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml top.twx top.ncd -o top.twr top.pcf -ucf top.ucf 
+bitgen -intstyle ise -f top.ut top.ncd 

@@ -1,0 +1,97 @@
+Release 14.7 ngdbuild P.20131013 (nt)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+
+Command Line: C:\Xilinx\14.7\ISE_DS\ISE\bin\nt\unwrapped\ngdbuild.exe -intstyle
+ise -dd _ngo -sd ipcore_dir -sd ../src/xilinx -sd ../src/xilinx/fifo -nt
+timestamp -uc top.ucf -p xc6slx45-fgg484-2 top_cs.ngc top.ngd
+
+Reading NGO file "D:/Workstation/Workspace/FPGA/Changed/12_cvbs_display -
+bt656/par_xilinx/top_cs.ngc" ...
+Gathering constraint information from source properties...
+Done.
+
+Annotating constraints to design from ucf file "top.ucf" ...
+Resolving constraint associations...
+Checking Constraint Associations...
+INFO:ConstraintSystem:178 - TNM 'CLOCK_IN_27M', used in period specification
+   'TS_CLOCK_IN_27M', was traced into DCM_SP instance pll_m0/dcm_sp_inst. The
+   following new TNM groups and period specifications were generated at the
+   DCM_SP output(s): 
+   CLKFX: <TIMESPEC TS_pll_m0_clkfx = PERIOD "pll_m0_clkfx" TS_CLOCK_IN_27M *
+   5.5 HIGH 50%>
+
+INFO:ConstraintSystem:178 - TNM 'CLOCK_IN_50M', used in period specification
+   'TS_CLOCK_IN_50M', was traced into PLL_ADV instance
+   mem_ctrl_m0/ddr3_m0/memc3_infrastructure_inst/u_pll_adv. The following new
+   TNM groups and period specifications were generated at the PLL_ADV output(s):
+    
+   CLKOUT3: <TIMESPEC
+   TS_mem_ctrl_m0_ddr3_m0_memc3_infrastructure_inst_mcb_drp_clk_bufg_in = PERIOD
+   "mem_ctrl_m0_ddr3_m0_memc3_infrastructure_inst_mcb_drp_clk_bufg_in"
+   TS_CLOCK_IN_50M * 1.5625 HIGH 50%>
+
+INFO:ConstraintSystem:178 - TNM 'CLOCK_IN_50M', used in period specification
+   'TS_CLOCK_IN_50M', was traced into PLL_ADV instance
+   mem_ctrl_m0/ddr3_m0/memc3_infrastructure_inst/u_pll_adv. The following new
+   TNM groups and period specifications were generated at the PLL_ADV output(s):
+    
+   CLKOUT1: <TIMESPEC
+   TS_mem_ctrl_m0_ddr3_m0_memc3_infrastructure_inst_clk_2x_180 = PERIOD
+   "mem_ctrl_m0_ddr3_m0_memc3_infrastructure_inst_clk_2x_180" TS_CLOCK_IN_50M *
+   12.5 PHASE 0.8 ns HIGH 50%>
+
+INFO:ConstraintSystem:178 - TNM 'CLOCK_IN_50M', used in period specification
+   'TS_CLOCK_IN_50M', was traced into PLL_ADV instance
+   mem_ctrl_m0/ddr3_m0/memc3_infrastructure_inst/u_pll_adv. The following new
+   TNM groups and period specifications were generated at the PLL_ADV output(s):
+    
+   CLKOUT0: <TIMESPEC TS_mem_ctrl_m0_ddr3_m0_memc3_infrastructure_inst_clk_2x_0
+   = PERIOD "mem_ctrl_m0_ddr3_m0_memc3_infrastructure_inst_clk_2x_0"
+   TS_CLOCK_IN_50M * 12.5 HIGH 50%>
+
+INFO:ConstraintSystem:178 - TNM 'CLOCK_IN_50M', used in period specification
+   'TS_CLOCK_IN_50M', was traced into PLL_ADV instance
+   mem_ctrl_m0/ddr3_m0/memc3_infrastructure_inst/u_pll_adv. The following new
+   TNM groups and period specifications were generated at the PLL_ADV output(s):
+    
+   CLKOUT2: <TIMESPEC
+   TS_mem_ctrl_m0_ddr3_m0_memc3_infrastructure_inst_clk0_bufg_in = PERIOD
+   "mem_ctrl_m0_ddr3_m0_memc3_infrastructure_inst_clk0_bufg_in" TS_CLOCK_IN_50M
+   * 3.125 HIGH 50%>
+
+Done...
+
+WARNING:NgdBuild:1212 - User specified non-default attribute value (37.037000)
+   was detected for the CLKIN_PERIOD attribute on DCM "pll_m0/dcm_sp_inst". 
+   This does not match the PERIOD constraint value (27000 KHz.).  The
+   uncertainty calculation will use the non-default attribute value.  This could
+   result in incorrect uncertainty calculated for DCM output clocks.
+WARNING:NgdBuild:1440 - User specified non-default attribute value (18.75) was
+   detected for the CLKIN1_PERIOD attribute on PLL
+   "mem_ctrl_m0/ddr3_m0/memc3_infrastructure_inst/u_pll_adv".  This does not
+   match the PERIOD constraint value (50000 KHz.).  The uncertainty calculation
+   will use the PERIOD constraint value.  This could result in incorrect
+   uncertainty calculated for PLL output clocks.
+Checking expanded design ...
+WARNING:NgdBuild:452 - logical net 'N461' has no driver
+WARNING:NgdBuild:452 - logical net 'N465' has no driver
+WARNING:NgdBuild:470 - bidirect pad net 'sda' has no legal driver
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+NGDBUILD Design Results Summary:
+  Number of errors:     0
+  Number of warnings:   5
+
+Total memory usage is 240236 kilobytes
+
+Writing NGD file "top.ngd" ...
+Total REAL time to NGDBUILD completion:  8 sec
+Total CPU time to NGDBUILD completion:   8 sec
+
+Writing NGDBUILD log file "top.bld"...

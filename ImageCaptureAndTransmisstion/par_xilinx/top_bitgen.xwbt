@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=D:\Workstation\Workspace\FPGA\Changed\12_cvbs_display - bt656\par_xilinx\top.ncd
+OUTFILE=D:\Workstation\Workspace\FPGA\Changed\12_cvbs_display - bt656\par_xilinx\top.bit
+FAMILY=Spartan6
+PART=xc6slx45-2fgg484
+WORKINGDIR=D:\Workstation\Workspace\FPGA\Changed\12_cvbs_display - bt656\par_xilinx
+LICENSE=WebPack
+USER_INFO=__0_0_0
